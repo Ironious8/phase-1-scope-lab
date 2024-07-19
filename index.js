@@ -16,10 +16,10 @@ function overwriteBestCustomer(newBestCustomer) {
 }
 overwriteBestCustomer();
 
-const leastFavoriteCustomer=ted;
-const newLeastFavoriteCustomer=sam;
-function changeLeastFavoriteCustomer(leastFavoriteCustomer, newLeastFavoriteCustomer) {
-    leastFavoriteCustomer=newLeastFavoriteCustomer;
+
+function changeLeastFavoriteCustomer() {
+  const leastFavoriteCustomer='Assignment to constant variable';
+ leastFavoriteCustomer='Assignment to constant variable.';
 
 }
 changeLeastFavoriteCustomer();
